@@ -80,7 +80,7 @@ This builds the tray app as a background Windows GUI app with no visible console
 
 ## Running
 
-You do **not** need Python for this.
+You do **need** need Python for this.
 
 Run the exe:
 
