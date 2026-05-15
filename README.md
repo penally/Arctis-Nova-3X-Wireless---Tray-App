@@ -6,7 +6,7 @@ Built by reverse engineering the USB HID/libusb protocol directly from the 2.4GH
 
 **Important:** this is now a **Go app**, not a Python script.
 
-- You do **not** need Python installed to run it.
+- You do **not** need Python installed to run it. (if you find the dll somewhere else)
 - You **do** still need `libusb-1.0.dll`.
 - Easiest setup: install it with `pip` by running `py -3.11 -m pip install libusb1`.
 
@@ -80,7 +80,7 @@ This builds the tray app as a background Windows GUI app with no visible console
 
 ## Running
 
-You do **need** need Python for this.
+You do **need** need Python to have `libusb1` installed. (or can be fetched elsewhere avoiding python)
 
 Run the exe:
 
